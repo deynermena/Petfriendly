@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+label i{
+    color:sandybrown;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header {
+    padding: 100px;
+    min-height: 100vh;
+    background-color: rgb(31, 98, 30);
+}
+
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(2, 7, 12);
+}
+
+.menu .menu.container{
+    background-color: black;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: sandybrown;
+    display: block;
+    
+}
+
+.navbar ul li a i{
+    color: white;
+    padding-left: 10px;
+}
+
+.navbar ul li a i:hover{
+    color:sandybrown;
+}
+
+label{
+    top: 5px;
+}
+
+.menu > .menucontainer{
+    background-color: black;
+}
+
+.menu .navbar ul li a:hover{
+    color: rgb(255, 255, 255)
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 800;
+    padding-left: 15px;
+    color: sandybrown;
+    text-transform: uppercase;
+}
+
+#menu{
+    display: none;
+}
+
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt{
+    width: 70%;
+}
+
+.header-txt h1{
+    line-height: 1;
+    color: rgb(255, 254, 253);
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.header-content.container a {
+    display: inline-block;
+    color: sandybrown;
+    padding: 11px 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.1);
+}
+
+.header-content.container a:hover{
+    color: white;
+}
+
+/*tabla*/
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    border-block: 35%;
+    background: rgb(159, 232, 65);
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.1);
+    border-radius: 20px;
+}
+
+table{
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+td{
+    padding: 15px;
+    border-bottom: solid 5px rgba(255, 255, 255, 0.2)
+}
+/*final tabla*/
+
+.header-txt p{
+    font-size: large;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black;
+}
+
+/*responsive*/
+@media (max-width:991px){
+
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(0, 0, 0);
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-content{
+        flex-direction: column;
+    }
+
+    .header-txt{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}

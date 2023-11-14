@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-shadow:0 0 20px rgba(0, 0, 0,0.1);
+    background-image:
+    url(/petfriendly/iconos/laughing-puppies-andozqq3tcybm6es.jpg);
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+form h2{
+    margin-bottom: 35px;
+    color: sandybrown;
+    text-shadow: 1px 1px 2px black;
+}
+
+form{
+    padding: 50px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.1);
+}
+
+.input-container{
+    position: relative;
+    justify-items:baseline;
+}
+
+.input-container i{
+    color: rgb(255, 255, 255);
+    justify-items: flex-start;
+    text-shadow: 0 0 20px rgba(0, 0, 0,0.1);
+}
+
+.input-container > input, textarea{
+    padding: 17px 15px 17px 65px;
+    width: 80%;
+    margin-bottom: 25px;
+    border-block: 35px;
+    background-color: rgb(0, 0, 0);
+    border: 2px rgb(67, 57, 57);
+    font-size: 16px;
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+
+textarea{
+    font-family: "poppins",sans-serif;
+}
+
+.btn {
+    font-family: "poppins",sans-serif;
+    background-color:sandybrown;
+    padding: 17px 30px;
+    width: 300px;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+}
+
+.btn1 {
+    font-family: "poppins",sans-serif;
+    background-color:rgb(0, 0, 0);
+    padding: 17px 30px;
+    color: aliceblue;
+    width: 200%;
+    border: 0;
+    cursor: pointer;
+    display:block;
+    top: 0;
+    bottom: 0;
+}
+
+.btn1:hover{
+    color: sandybrown;
+}
+
+@media (max-width: 991px){
+    .input-container i{
+    display:none;
+    }
+}

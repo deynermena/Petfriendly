@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+
+
+body h2{
+    margin: 0;
+    padding: 0;
+    color: sandybrown;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    font-size: 55px;
+    text-shadow: 1px 1px 2px black;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-shadow:0 0 20px rgba(0, 0, 0,0.1);
+    
+}
+
+body{
+    background-image:
+    url(/petfriendly/iconos/fondo_login.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.cliente{
+    width: 500px;
+    backdrop-filter: blur(20px);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0,0.1);
+}
+
+.cliente .input-box1{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+    border-block: 35px;
+    color: rgb(255, 255, 255);
+    margin-left: 15px ;
+    padding: 17px 15px 17px 65px;
+}
+
+.cliente .input-box{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+    border-block: 35px;
+    color: rgb(255, 255, 255);
+    margin-left: 15px ;
+    padding: 17px 15px 17px 65px;
+}
+
+.cliente i{
+    position: absolute;
+    right: 20px;
+}
+
+.link-registrarse{
+    margin-left: 120px;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link-registrarse a{
+    color: black;
+    text-decoration: none;
+}
+
+.link-registrarse a:hover{
+    color: sandybrown;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+
+/**/
+.input-container{
+    position: relative;
+    justify-items:baseline;
+}
+
+.input-container i{
+    color: rgb(255, 255, 255);
+    justify-items: flex-start;
+    text-shadow: 0 0 20px rgba(0, 0, 0,0.1);
+}
+
+.input-container > input, textarea{
+    padding: 17px 15px 17px 65px;
+    width: 80%;
+    margin-bottom: 25px;
+    border-block: 35px;
+    background-color: rgb(255, 255, 255);
+    border: 2px rgb(67, 57, 57);
+    font-size: 16px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-left: 15px;
+}
+
+textarea{
+    font-family: "poppins",sans-serif;
+}
+/**/
+
+.input-container input{
+    width: 50%;
+    height: 50%;
+    border: 0;
+}
+
+.cliente .btn{
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+    font-family: sans-serif;
+    width: 85%;
+    height: 45px;
+    border: 0;
+    display: block;
+    margin: auto;
+    font-size: large;
+}
+
+.cliente .btn:hover{
+    color: sandybrown;
+}
+
+.vuelta .btn{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border: 0;
+    background-color: sandybrown;
+    width: 50%;
+    height: 50px;
+    display: block;
+    margin:  auto;
+    bottom: 4px;
+}
+
+.vuelta .btn:hover{
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width:991px){
+    
+}
+
+/*CSS LOGIN Veterinario*/

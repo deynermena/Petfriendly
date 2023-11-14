@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+label i{
+    color:aliceblue;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header {
+    background-color:sandybrown;
+    padding: 150px 0 100px 0;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(2, 7, 12);
+}
+
+.menu .menu.container{
+    background-color: black;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: block;
+    
+}
+
+.navbar ul li a i{
+    color: white;
+    padding-left: 10px;
+}
+
+.navbar ul li a i:hover{
+    color:sandybrown;
+}
+
+label{
+    top: 5px;
+}
+
+.menu > .menucontainer{
+    background-color: black;
+}
+
+.menu .navbar ul li a:hover{
+    color: sandybrown;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 800;
+    padding-left: 15px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+#menu{
+    display: none;
+}
+
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    display: flex;
+}
+
+.header-txt{
+    width: 50%;
+}
+
+.header-txt h1{
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 75px;
+    margin-bottom: 10px;
+    padding-left: 24px;
+}
+
+.header-txt p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 45px;
+    padding-left: 30px;
+}
+
+.header-img{
+    width: 70%;
+    position:relative;
+    padding-left: 20px;
+}
+
+
+.btn-1 {
+    display: inline-block;
+    color: aliceblue;
+    padding: 11px 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.1);
+}
+
+.header .header-txt a:hover{
+    color: sandybrown;
+}
+
+/*css de seccion: nosotros*/
+.about-container{
+    padding: 100px 0;
+    display: flex;
+}
+
+.about-img{
+    width: 50%;
+}
+
+.about-img img{
+    width: 500px;
+    border-radius: 15px;
+}
+
+.about-txt{
+    width: 50%;
+    margin-left: 25px;
+}
+
+.about-txt h2{
+    color:rgb(8, 8, 8);
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.about-txt h2{
+    color:sandybrown;
+}
+
+.about-txt p{
+    bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+    .about-container{
+        display: flex;
+    }
+
+    .about-txt{
+        margin-left: 0;
+    }
+
+    .about-img img{
+        max-width: 50%;
+    }
+}
+
+/*css de seccion: servicios*/
+.main .servicios h2{
+    color: blueviolet;
+}
+
+.servicios{
+    padding: 50px 0 100px 0;
+    text-align: center;
+    background-color: sandybrown;
+}
+
+.servicios h2{
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.servicios-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*css de la seccion: consulta previa*/
+.formulario{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.formulario h2{
+    margin-bottom: 30px;
+}
+
+form{
+    padding: 50px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.1);
+}
+
+.input-container{
+    position: relative;
+}
+
+.input-container > i {
+    padding: 14px;
+    border-block: 50%;
+    background-color: sandybrown;
+    position: absolute;
+    size: 20px;
+    right: 1px;
+
+}
+
+.input-container > input, textarea{
+    padding: 17px 15px 17px 65px;
+    width: 100%;
+    margin-bottom: 25px;
+    border-block: 35px;
+    background-color: aliceblue;
+    border: 2px rgb(67, 57, 57);
+    font-size: 16px;
+    outline: none;
+}
+
+textarea{
+    font-family: "poppins",sans-serif;
+}
+
+.btn {
+    font-family: "poppins",sans-serif;
+    background-color:sandybrown;
+    padding: 17px 30px;
+    width: 50%;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+}
+
+/*comienzo css del footer*/
+.footer{
+    text-align: center;
+    background-color:sandybrown;
+    padding: 25px;
+}
+footer .logo{
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+.link ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer .link ul li a{
+    color: black;
+    float:left;
+}
+
+.footer .link ul li a:hover{
+    color:aliceblue
+}
+
+.footer .text{
+    margin-top: 20px;
+}
+
+/*ir arriba*/
+#myBtn {
+    font-family:'Poppins', sans-serif;
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(0, 0, 0); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 10px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    color:sandybrown; /* Add a dark-grey background on hover */
+  }
+
+/*css responsivo*/
+@media (max-width:991px){
+
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(0, 0, 0);
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-content{
+        flex-direction: column;
+    }
+
+    .header-txt{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
+

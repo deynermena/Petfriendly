@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+
+/*CSS TITULO*/
+.usuario h2{
+    color:rgb(255, 255, 255);
+    font-size: 55px;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 2px black;
+}
+
+/*CSS SELECCION DE USUARIO*/
+.seleccion-usuario{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    background-image: url(/petfriendly/iconos/HD-wallpaper-kitten-in-autumn-landscape-fall-season-cats-landscapes-kittens-autumn-animals.jpg);
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.usuario .usuario1{
+    box-sizing: border-box;
+}
+
+.usuario .usuario2{
+    padding-left: 30px;;
+}
+
+
+body ul{
+    display: flex;
+    margin: 0;
+    align-self: center;
+    align-items: center;
+    min-height: 100vh;
+    color: aliceblue;
+    padding-right: 13%;
+}
+
+body a{
+    color:sandybrown;
+    font-size: x-large;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+}
+
+body a i{
+    color:rgb(255, 255, 255);
+    border-bottom: 20%;
+}
+
+/*CSS BOTON DE REGRESAR*/
+body .regresar{
+    margin-left: 20px;
+    margin-right: 20px;
+    color:aliceblue ;
+}
+
+
+body .regresar button{
+    display:block;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding: 17px 30px;
+    width: 70%;
+    border: 0;
+    background-color: black;
+    color:aliceblue;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0,0.1);
+    font-size: 20px;
+    border-radius: 20px;
+    height: 250px;
+}
+
+.regresar button:hover{
+    color:rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+
+/*responsive*/
+@media (max-width:991px){
+    
+    body .regresar button{
+        display:block;
+        position:absolute;
+        bottom: 0;
+        height: 60px;
+        max-width: 80%;
+        margin-bottom: 30%;
+    }
+
+}
+
